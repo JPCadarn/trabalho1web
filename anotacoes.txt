@@ -3,5 +3,4 @@
 - Blog com no mínimo 6 postagens;
 - Mostrar descrição reduzida na página e clicar p/ ir até a página da postagem;
 - Temas Possíveis:
-    -> Jovem Nerd;
     -> 
