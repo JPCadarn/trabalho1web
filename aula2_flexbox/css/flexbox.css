@@ -1,0 +1,52 @@
+.cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-nav{
+    display: flex;
+}
+
+.quem .container{
+    display: flex;
+    text-align: center;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.video{
+    display: flex;
+    flex-grow: 1;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.quem {
+	background-color: #db0909;
+	padding: 25px 0;
+	color: #FFF;
+}
+.video {
+	max-width: 100%;
+}
+
+.sobre-title {
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+
+.trabalhos-lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trabalhos-link{
+    width: 20%;
+}
