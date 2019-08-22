@@ -1,8 +1,16 @@
 - Single Page com rolagem até as sessões;
+- Menu lateral;
 - Mínimo de 4 sessões + contato com formulário, rodapé e maps;
 - Blog com no mínimo 6 postagens;
 - Mostrar descrição reduzida na página e clicar p/ ir até a página da postagem;
-- Slideshow:
-    -> Usar algumas postagens do blog (em alta);
 - Tema:
-    -> Monster; 
+    -> Monster;
+- ToDo:
+    - Sessões:
+        -> Quem Somos;
+        -> Produtos(Slideshow);
+        -> Eventos;
+        -> Blog;
+        -> Footer.
+    Coletar imagens;
+    Fazer publicações;
