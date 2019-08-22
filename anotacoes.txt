@@ -4,5 +4,5 @@
 - Mostrar descrição reduzida na página e clicar p/ ir até a página da postagem;
 - Slideshow:
     -> Usar algumas postagens do blog (em alta);
-- Temas:
-    -> 
+- Tema:
+    -> Monster; 
