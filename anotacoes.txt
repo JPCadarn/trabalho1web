@@ -1,16 +1,28 @@
 - Single Page com rolagem até as sessões;
 - Menu lateral;
-- Mínimo de 4 sessões + contato com formulário, rodapé e maps;
+- Mínimo de 4 sessões + footer com formulário de contato e maps;
 - Blog com no mínimo 6 postagens;
 - Mostrar descrição reduzida na página e clicar p/ ir até a página da postagem;
 - Tema:
     -> Monster;
+- Sessões:
+    -> Sobre;
+    -> Produtos(Slideshow);
+    -> Eventos;
+    -> Blog;
+    -> Footer.
 - ToDo:
-    - Sessões:
-        -> Quem Somos;
-        -> Produtos(Slideshow);
-        -> Eventos;
-        -> Blog;
-        -> Footer.
-    Coletar imagens;
-    Fazer publicações;
+    -> NavBar; ok
+    -> Sobre;
+    -> Produtos(Slideshow); ok
+    -> Eventos;
+    -> Noticias;
+    -> Footer;
+    -> Form de contato;
+    -> Maps;
+    -> Estilos;
+    -> Responsivo;
+    -> Menu Lateral;
+    -> Blog;
+    -> Responsivo;
+    -> NavBar persistente;

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/slideshow.css">
+    <title>Monster Energy Drink</title>
+</head>
+
+<body>
+    <nav>
+        <span class="sidenav" id="menuLateral">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#produtos" class="nav-links">Produtos</a>
+                <a href="#eventos" class="nav-links">Eventos</a>
+                <a href="#noticias" class="nav-links">Notícias</a>
+                <a href="#sobre" class="nav-links">Sobre</a>
+                <a href="#contato" class="nav-links">Contato</a>
+            </span>
+        <span onclick="openNav()" id="btnAbrirNav">&#9776;</span>
+        <img src="assets/images/logo.png" class="logo">
+    </nav>
+
+    <main>
+        <div class="produtos">
+            <!-- SLIDES -->
+            <div class="slide">
+                <img src="assets/images/monster_classico.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_locarb.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_zero.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_orange.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_mangoloco.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_zeroultra.png">
+            </div>
+            <div class="slide">
+                <img src="assets/images/monster_ultraviolet.png">
+            </div>
+            <!-- BOTÕES DE NAVEGAÇÃO -->
+            <a class="prev nav-button" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next nav-button" onclick="plusSlides(1)">&#10095;</a>
+            <!-- LEGENDA -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <!-- THUMBNAILS -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_classico.png" alt="Monster Energy Drink" onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_locarb.png" alt="Monster Lo-Carb" onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_zero.png" alt="Monster Absolutely Zero" onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_orange.png" alt="Monster Juice Orange" onclick="currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_mangoloco.png" alt="Monster Mango Loco" onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_zeroultra.png" alt="Monster Zero Ultra" onclick="currentSlide(6)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/images/monster_ultraviolet.png" alt="Monster Ultra Violet" onclick="currentSlide(7)">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/slideshow.js"></script>
+</body>
+
+</html>
