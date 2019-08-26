@@ -6,23 +6,18 @@
 - Tema:
     -> Monster;
 - Sessões:
-    -> Sobre;
-    -> Produtos(Slideshow);
-    -> Eventos;
+    -> Sobre; ok
+    -> Produtos(Slideshow); ok
+    -> Parceiros; ok
     -> Blog;
     -> Footer.
 - ToDo:
-    -> NavBar; ok
-    -> Sobre;
-    -> Produtos(Slideshow); ok
-    -> Eventos;
     -> Noticias;
-    -> Footer;
-    -> Form de contato;
-    -> Maps;
     -> Estilos;
     -> Responsivo;
     -> Menu Lateral;
     -> Blog;
     -> Responsivo;
-    -> NavBar persistente;
+    -> Estilizar títulos sessões;
+    -> Ajustar ícone da página;
+    -> Ajustar fonte;
