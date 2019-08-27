@@ -13,6 +13,7 @@
 body {
     background-color: black;
     text-align: justify;
+    scroll-behavior: smooth;
 }
 
 .center {

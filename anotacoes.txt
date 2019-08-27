@@ -21,3 +21,4 @@
     -> Estilizar títulos sessões;
     -> Ajustar ícone da página;
     -> Ajustar fonte;
+    -> Animação click botão;

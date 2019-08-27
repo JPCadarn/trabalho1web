@@ -16,18 +16,18 @@
     <nav>
         <span class="sidenav" id="menuLateral">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-						<a href="#produtos" class="nav-links">Produtos</a>
-						<a href="#eventos" class="nav-links">Eventos</a>
-						<a href="#noticias" class="nav-links">Notícias</a>
-						<a href="#sobre" class="nav-links">Sobre</a>
-						<a href="#contato" class="nav-links">Contato</a>
+						<a href="#produtos" onclick="closeNav()" class="nav-links">Produtos</a>
+						<a href="#eventos" onclick="closeNav()" class="nav-links">Eventos</a>
+						<a href="#noticias" onclick="closeNav()" class="nav-links">Notícias</a>
+						<a href="#sobre" onclick="closeNav()" class="nav-links">Sobre</a>
+						<a href="#contato" onclick="closeNav()" class="nav-links">Contato</a>
 					</span>
         <span onclick="openNav()" id="btnAbrirNav">&#9776;</span>
         <img src="assets/images/logo.png" class="logo">
     </nav>
 
     <main>
-        <div class="produtos">
+        <div id="produtos" class="produtos">
             <div class="titulo">
                 <span>Produtos</span>
             </div>
@@ -89,7 +89,7 @@
         <div class="titulo">
             <span>Parceiros</span>
         </div>
-        <div class="parceiros">
+        <div id="parceiros" class="parceiros">
             <div class="parceiro">
                 <img src="assets/images/badwolves.jpg" alt="Bad Wolves">
                 <div class="parceiro-texto">
@@ -151,7 +151,7 @@
         <div class="titulo">
             <span>Quem Somos?</span>
         </div>
-        <div class="sobre">
+        <div id="sobre" class="sobre">
             <span>A maioria das empresas gasta seu dinheiro em agências de publicidade, comerciais de TV, 
 				spots de rádio e outdoors para dizer como seus produtos são bons. 
 				Na Monster, não escolhemos nenhuma das opções acima. Em vez disso, apoiamos a cena, nossas bandas, nossos atletas e nossos fãs. 
