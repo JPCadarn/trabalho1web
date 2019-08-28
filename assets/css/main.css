@@ -10,10 +10,13 @@
     font-size: 1em;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     text-align: justify;
-    scroll-behavior: smooth;
 }
 
 .center {
