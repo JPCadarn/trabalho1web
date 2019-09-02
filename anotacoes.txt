@@ -13,12 +13,14 @@
     -> Footer.
 - ToDo:
     -> Noticias;
-    -> Estilos;
     -> Responsivo;
-    -> Menu Lateral;
     -> Blog;
     -> Responsivo;
     -> Estilizar títulos sessões;
-    -> Ajustar ícone da página;
-    -> Ajustar fonte;
-    -> Animação click botão;
+    -> Matérias:
+        --> Conheça nossos parceiros;
+        --> https://bit.ly/2jVkI8e
+        --> https://bit.ly/2koj3Z6
+        --> https://bit.ly/2kqu0JJ
+        --> https://bit.ly/2lW51OZ
+        --> https://bit.ly/2kdzg3o 
