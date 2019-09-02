@@ -13,7 +13,6 @@
     -> Footer.
 - ToDo:
     -> Noticias;
-    -> Responsivo;
     -> Blog;
     -> Responsivo;
     -> Estilizar títulos sessões;
