@@ -16,6 +16,7 @@
     -> Blog;
     -> Responsivo;
     -> Estilizar títulos sessões;
+    -> Transição slides;
     -> Matérias:
         --> https://bit.ly/2kfFsbb //x-games
         --> https://bit.ly/2jVkI8e //connor

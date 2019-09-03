@@ -47,6 +47,7 @@
 .prev:hover,
 .next:hover {
     background-color: #95D600;
+    color: black;
 }
 
 .caption-container {
