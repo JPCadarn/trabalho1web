@@ -3,163 +3,195 @@
 *,
 *:after,
 *:before {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
 }
 
 html {
-	scroll-behavior: smooth;
-	font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
 }
 
 body {
-	background-color: black;
-	text-align: justify;
+    background-color: black;
+    text-align: justify;
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 .logo {
-	height: 4em;
-	width: 8.8em;
-	text-align: center;
-	position: fixed;
-	margin: 0% 0% 0% 40%;
+    height: 4em;
+    width: 8.8em;
+    text-align: center;
+    position: fixed;
+    margin: 0% 0% 0% 40%;
 }
 
 nav {
-	height: 4.7em;
-	width: 100%;
-	position: fixed;
-	overflow: hidden;
-	top: 0;
-	z-index: 99999999999999999;
-	background-color: black;
-	padding-top: 10px;
-	-webkit-box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
-	-moz-box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
-	box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
+    height: 4.7em;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 99999999999999999;
+    background-color: black;
+    padding-top: 10px;
+    -webkit-box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
+    -moz-box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
+    box-shadow: 4px 4px 36px 4px rgba(149, 214, 0, 0.71);
 }
 
 #btnAbrirNav {
-	color: white;
-	cursor: pointer;
-	font-size: 2em;
-	padding-left: 0.5em;
-	padding-top: 0.5em;
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
 }
 
 .nav-button {
-	color: white;
+    color: white;
 }
 
 main {
-	margin-top: 8em;
+    margin-top: 8em;
 }
 
 .titulo {
-	font-size: 1.5em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .parceiros {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.parceiro,
+.noticia {
+    display: inline-grid;
+    width: 80%;
+    transition: transform .2s;
+    align-content: center;
+    text-align: center;
+    margin: 0.5em auto !important;
 }
 
 .parceiro {
-	display: inline-grid;
-	width: 80%;
-	transition: transform .2s;
-	align-content: center;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0.5em auto !important;
+    text-transform: uppercase;
+}
+
+.noticia-link, .link-blog {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.link-blog {
+	font-size: 4em;
+}
+
+.link-texto{
+	font-size: 1em !important;
+}
+
+.seta{
+	height: 100%;
+}
+
+.noticia img {
+    width: 100%;
 }
 
 .parceiro h4 {
-	color: darkgrey;
+    color: darkgrey;
 }
 
 .parceiro span {
-	color: #95D600;
+    color: #95D600;
 }
 
-.parceiro:hover {
-	transform: scale(1.05);
+.parceiro:hover,
+.noticia:hover,
+.link-blog:hover {
+    transform: scale(1.05);
 }
 
 .sobre {
-	color: darkgrey;
-	margin: 0 2.5em;
-	font-size: 1.5em;
+    color: darkgrey;
+    margin: 0 2.5em;
+    font-size: 1.5em;
 }
 
 footer {
-	background-color: #222222;
-	display: grid;
-	grid-template-columns: 40% 10% 40%;
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
 }
 
 .col {
-	display: inline-grid;
-	width: 100%;
-	margin: 1em 2.5em;
+    display: inline-grid;
+    width: 100%;
+    margin: 1em 2.5em;
 }
 
 .start {
-	grid-column-start: 1;
+    grid-column-start: 1;
 }
 
 .end {
-	grid-column-start: 3;
+    grid-column-start: 3;
 }
 
 .end input,
 .end textarea,
 .end button {
-	border-radius: 1.8em;
-	background-color: transparent;
+    border-radius: 1.8em;
+    background-color: transparent;
 }
 
 .end input {
-	height: 1.5em;
+    height: 1.5em;
 }
 
 .end input,
 .end textarea {
-	border: none;
-	border-bottom: 0.1em solid #444444;
-	margin-bottom: 1em;
-	padding: 1em;
+    border: none;
+    border-bottom: 0.1em solid #444444;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
 .end input:focus,
 .end textarea:focus,
 .end button {
-	outline: none;
-	color: #95D600;
-	border: 0.1em solid #95D600;
+    outline: none;
+    color: #95D600;
+    border: 0.1em solid #95D600;
 }
 
 textarea {
-	font-family: inherit;
-	font-size: inherit;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 .creditos {
-	text-align: center;
-	font-size: 1.5em;
-	color: darkgrey;
-	background-color: #222222;
-	padding-top: 2em;
+    text-align: center;
+    font-size: 1.5em;
+    color: darkgrey;
+    background-color: #222222;
+    padding-top: 2em;
 }
