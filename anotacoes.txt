@@ -1,4 +1,5 @@
 - ToDo:
     -> Responsivo;
     -> Transição slides;
-    -> NavBar do blog com botão voltar e logo home
+
+    border: 2px solid red;

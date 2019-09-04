@@ -1,6 +1,6 @@
 function openNav() {
-	document.getElementById("menuLateral").style.width = "250px";
-	document.getElementById("main").style.marginLeft = "250px";
+	document.getElementById("menuLateral").style.width = "15.625%";
+	document.getElementById("main").style.marginLeft = "15.625%";
 	document.body.style.opacity = "40";
   }
 
